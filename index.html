@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<link rel="stylesheet" type="text/css" href="loadingCircle.css">
+		<link rel="stylesheet" type="text/css" href="currentGameDataTable.css">
+		<link rel="stylesheet" type="text/css" href="gameHistoryDataTable.css">
+		<link rel="stylesheet" type="text/css" href="featuredGamesDataTable.css">
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script type="text/javascript" src="league.js"></script>
+
+		<script type='text/javascript'>
+			getFeaturedGames();
+		</script>
+	</head>
+	
+	<body onload="displayNextGame();setInterval(function(){ displayNextGame(); }, 5000);">
+		<div id="container">
+		
+			<div id="head">
+				<h1 id="pageTitle">League of Legends On-line Lookup</h1>
+			</div>
+
+			<div id="body">
+				
+				<div id = "input">
+					<input type="text" class="search-field" id="summonerName" placeholder="Summoner Search" onkeypress="validateForm(event);"/>
+					<br/>
+					<input type="radio" id="liveData" name="data" value="liveData" checked>Live Game Data
+					<input type="radio" id="summonerInfo" name="data" value="summonerInfo">Summoner Info
+				</div>
+				
+				<div id = "dataDiv">
+				</div>
+			
+			</div>
+			
+			<div id="foot">
+				<br>
+				<div id = "credits">
+					Created By: William Swinny <br>
+					Last Edited On: 5/4/2015 <br>
+				</div>
+			</div>
+			
+		</div>
+	</body>
+</html>

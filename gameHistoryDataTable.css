@@ -1,0 +1,228 @@
+tiny
+{
+	font-size: 10px;
+}
+
+.TinyIcon
+{
+	width: 25px;
+	height: auto;
+}
+
+.SummonerIcon
+{
+	width: 100px;
+	height: auto;
+	border-radius: 25px;
+}
+
+.ItemIcon
+{
+	width: 50px;
+	height: auto;
+	margin: 2px 2px 2px 2px;
+	border-radius: 10px;
+}
+
+#rank
+{
+	margin-bottom: 40px;
+}
+
+#rankMedal
+{
+	width: 150px;
+	height: 150px;
+	margin: auto;
+
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+#text
+{
+	font-size: 40px;
+	color: #FFF;
+}
+
+.bronze_i
+{
+	content: url("medals/bronze_1.png");
+}
+
+.bronze_ii
+{
+	content: url("medals/bronze_2.png");
+}
+
+.bronze_iii
+{
+	content: url("medals/bronze_3.png");
+}
+
+.bronze_iv
+{
+	content: url("medals/bronze_4.png");
+}
+
+.bronze_v
+{
+	content: url("medals/bronze_5.png");
+}
+
+.silver_i
+{
+	content: url("medals/silver_1.png");
+}
+
+.silver_ii
+{
+	content: url("medals/silver_2.png");
+}
+
+.silver_iii
+{
+	content: url("medals/silver_3.png");
+}
+
+.silver_iv
+{
+	content: url("medals/silver_4.png");
+}
+
+.silver_v
+{
+	content: url("medals/silver_5.png");
+}
+
+.gold_i
+{
+	content: url("medals/gold_1.png");
+}
+
+.gold_ii
+{
+	content: url("medals/gold_2.png");
+}
+
+.gold_iii
+{
+	content: url("medals/gold_3.png");
+}
+
+.gold_iv
+{
+	content: url("medals/gold_4.png");
+}
+
+.gold_v
+{
+	content: url("medals/gold_5.png");
+}
+
+.platinum_i
+{
+	content: url("medals/platinum_1.png");
+}
+
+.platinum_ii
+{
+	content: url("medals/platinum_2.png");
+}
+
+.platinum_iii
+{
+	content: url("medals/platinum_3.png");
+}
+
+.platinum_iv
+{
+	content: url("medals/platinum_4.png");
+}
+
+.platinum_v
+{
+	content: url("medals/platinum_5.png");
+}
+
+.diamond_i
+{
+	content: url("medals/platinum_1.png");
+}
+
+.diamond_ii
+{
+	content: url("medals/platinum_2.png");
+}
+
+.diamond_iii
+{
+	content: url("medals/platinum_3.png");
+}
+
+.diamond_iv
+{
+	content: url("medals/platinum_4.png");
+}
+
+.diamond_v
+{
+	content: url("medals/platinum_5.png");
+}
+
+.challenger_i
+{
+	content: url("medals/challenger_1.png");
+}
+
+.master_i
+{
+	content: url("medals/master_1.png");
+}
+
+.illuminati_
+{
+	content: url("medals/illuminati_1.png");
+}
+
+.paper_iii
+{
+	content: url("medals/paper_1.png");
+}
+
+.pusheen_
+{
+	content: url("medals/pusheen_1.png");
+}
+
+.win
+{
+	background-color: rgba(0, 143, 0, 0.6);
+}
+
+.lose
+{
+	background-color: rgba(163, 0, 0, 0.6);
+}
+
+#gameHistory
+{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+#gameHistory tr
+{
+	border: 10px solid #333;
+}
+
+#gameHistory td, #gameHistory th
+{
+    font-size: 1em;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}

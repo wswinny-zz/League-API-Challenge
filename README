@@ -1,0 +1,46 @@
+***************************
+* DESCRIPTION AND INSTALL *
+***************************
+This project uses the League of Legends API to query current games as well as
+get a summoners match history, level, and rank. This is helpful for any player
+getting ready to play because they now know who they are playing with and 
+what to expect from that player. To install this project on your local machine you 
+will need some type of php server. However for convience so you
+dont have to set that up I have set it up live at 
+http://www.swinny.me/projects/LOL so it is easy to test and access.
+
+**************
+* HOW TO USE *
+**************
+To use this project you must first some stuff about League of Legends. First
+all players in the game are called summoners and there are 3 game modes 5v5, 3v3,
+and ARAM (All Random All Mid). A summoner can play any one of these 3 modes and
+each mode is accompined by different spell sets and item sets. To make this simple
+when you hit the webpage you will see some games listed that are 5v5. You should
+see a total of 5 games in total as they scroll by at a rate of 1 game every 5
+seconds. To query any one of the games simply click on a summoners name listed.
+The site will they query either their summoner info or the current game they are
+in depending on which radio button you have checked. You can also type in a
+summoner name manually in order to query a specific game that is live.
+
+*********************
+* WHAT IS DISPLAYED *
+*********************
+Each one of two options displays different things about a summoner and their
+game(s). The current game option will display generic info about that specific game 
+from all 10 summoners includeing, their summoner name, the champion name and image
+for the champion, the spells the summoner took for the game, and the summoners 
+level and rank. However if you use the summoner info option it will display the
+summoners level and rank as well as the rank image. It will also display the past
+10 games as well as the number of kills, deaths, assists, wards placed, gold
+earned, minions killed, items bought, spells taken, and champion taken for each
+of the 10 games. This is useful for summoners to know how they or their enemy
+have preformed in the past 10 games they have played.
+
+***************
+* EASTER EGGS *
+***************
+Try querying the name telekineticblub (this is me) in summoner info the rank is 
+intresting :D this rank happens for any unranked player because i could not come
+up with a good way to show a player was unranked.
+

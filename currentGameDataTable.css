@@ -1,0 +1,93 @@
+.SpellIcon
+{
+    width: 19px;
+    height: auto;
+}
+
+#summonerNameColumn
+{
+    width: 150px;
+}
+
+#champInfoColumn
+{
+    width: 175px;
+}
+
+#summonerLevelColumn
+{
+    text-align: center;
+}
+
+#summonerRankColumn
+{
+    width: 125px;
+}
+
+#currentGameChamp
+{
+	vertical-align: -webkit-baseline-middle;
+	padding: 5px;
+}
+
+#currentGameChampIcon
+{
+	width:40px;
+	float:left;
+}
+
+#currentGameSpells
+{
+	display: inline-table;
+}
+
+#summonerTableBlue, #summonerTableRed
+{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+	
+    text-align: left;
+    vertical-align: middle;
+
+    display: inline-flex;
+    margin: 5px;
+}
+
+#summonerTableBlue td, #summonerTableRed td, #summonerTableBlue th, #summonerTableRed th
+{
+    font-size: 1em;
+    padding: 3px 7px 2px 7px;
+    border-top: 1px solid #CC9900;
+    border-bottom: 1px solid #CC9900;
+}
+
+#summonerTableBlue td, #summonerTableRed td
+{
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+#summonerTableBlue th 
+{
+    font-size: 1.1em;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    background-color: #0066FF;
+    color: #ffffff;
+}
+
+#summonerTableRed th 
+{
+    font-size: 1.1em;
+    text-align: left; 
+    padding-top: 5px;
+    padding-bottom: 4px;
+    background-color: #FF0000;
+    color: #ffffff;
+}
+
+#summonerTableBlue tr.alt td, #summonerTableRed tr.alt td 
+{
+    color: #000000;
+    background-color: #EAF2D3;
+}

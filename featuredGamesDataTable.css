@@ -1,0 +1,38 @@
+.rightTeam
+{
+	text-align: right;
+}
+
+.leftTeam
+{
+	text-align: left;
+}
+
+#currentGame
+{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border: 3px solid #CC9900;
+	
+	margin-top: 5px;
+    margin-bottom: 5px;
+    border-spacing: 0px;
+}
+
+#currentSummoner
+{
+    font-size: 14px;
+    padding: 3px 7px 2px 7px;
+	width: 175px;
+	vertical-align: middle;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+#vs
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	color: #CC9900;
+	width: 50px;
+	background-color: rgba(0, 0, 0, 0.4);
+}
